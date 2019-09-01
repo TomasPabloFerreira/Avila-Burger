@@ -1,6 +1,6 @@
 <?php
-include 'header.php';
-include_once 'dbConnection.php';
+include_once 'header.php';
+include_once '../config/dbConnection.php';
 
 $sql = "SELECT * FROM pedidos ORDER BY estado ASC,id ASC LIMIT 7";
 $query_run = $mysqli->query($sql);
