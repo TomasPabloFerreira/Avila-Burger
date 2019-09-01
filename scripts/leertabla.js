@@ -20,40 +20,34 @@ function leer () {
 				
 				
 				var estado = myObj[i].estado;
-				if(estado == 1){
+				if(estado == 1)
+				{
 					registro.classList.add("table-success");
 					var textnode = document.createTextNode("Listo");
 					var lin = document.createElement("i");
-					lin.classList.add("fasmr-2");
+					lin.classList.add("fas");
+					lin.classList.add("fa-check-circle");
+					lin.classList.add("mr-2");
 				}
-				else{
-					registro.classList.add("table-success");
-					var textnode = document.createTextNode("Erorr");
-					var lin = document.createElement("i");
-					lin.classList.add("famr-2");
-				}
-				switch (estado) {
-				  case 1:
-					registro.classList.add("table-success");
-					var textnode = document.createTextNode("Listo");
-					var lin = document.createElement("i");
-					lin.classList.add("fafa-check-circle");
-					
-					break;
-				  case 2:
+				if(estado == 2)
+				{
 					registro.classList.add("table-info");
 					var textnode = document.createTextNode("Preparando");
 					var lin = document.createElement("i");
-					lin.classList.add("fasfa-clockmr-2");
-					break;
-				  case 3:
-					registro.classList.add("table-secondary");
-					var textnode = document.createTextNode("Preparando");
-					var lin = document.createElement("i");
-					lin.classList.add("fasfa-pause-circlemr-2");
-					break;
-				 
+					lin.classList.add("fas");
+					lin.classList.add("fa-clock");
+					lin.classList.add("mr-2");
 				}
+				if(estado == 3)
+				{
+					registro.classList.add("table-secondary");
+					var textnode = document.createTextNode("En cola");
+					var lin = document.createElement("i");
+					lin.classList.add("fas");
+					lin.classList.add("fa-pause-circle");
+					lin.classList.add("mr-2");
+				}
+				
 			
 				var cell1 = document.createElement("th");
 				cell1.scope= "row";
