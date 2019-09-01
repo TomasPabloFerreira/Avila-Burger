@@ -37,7 +37,7 @@ function leer () {
 					break;
 				  default:
 					registro.classList.add("table-secondary");
-					var textnode = document.createTextNode("Preparando");
+					var textnode = document.createTextNode("En cola");
 					lin.classList.add("fas fa-pause-circle mr-2");
 				}
 			
