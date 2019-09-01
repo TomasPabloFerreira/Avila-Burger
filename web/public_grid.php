@@ -1,6 +1,7 @@
 <?php include 'header.php'; ?>
 
-<table class="table table-bordered">
+<table class="table table-bordered" onload="leer();">
+
 	<thead class="thead-dark">
 		<tr>
 			<th scope="col" style="width:20%">Pedido N°</th>
@@ -9,7 +10,7 @@
 		</tr>
 	</thead>
 
-	<tbody>
+	<tbody id="mostrar">
 		<tr class="table-success">
 			<th scope="row">12</th>
 			<th>Papas fritas</th>
