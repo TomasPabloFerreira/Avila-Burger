@@ -1,0 +1,18 @@
+td{
+	font-size: 150%;
+}
+th{
+	font-size: 150%;
+}
+body {
+	background-image: url("../images/Background.jpg");
+}
+.logo{
+	width: 20%;
+}
+.gray-background{
+	background-color: #3D3D3D !important;
+}
+.white-color{
+	color: white;
+}
