@@ -17,15 +17,26 @@ function leer () {
 // Se supone que recibo un array de objetos donde cada item tiene tres campos. 
 			for (var i = 0; i < myObj.length; i++) {
 				registro = tabla.insertRow();
-				
-
-				campo = registro.insertCell(-1);
-				campo.innerHTML = myObj[i].id_pedido;
-				campo = registro.insertCell(-1);
-				campo.innerHTML = myObj[i].orden;
-				campo = registro.insertCell(-1);
-				campo.innerHTML = myObj[i].estado;
+	
 			
+				var cell1 = document.createElement("th");
+				cell1.scope= "row";
+				cell1.innerHTML = myObj[i].id_pedido;
+				registro.appendChild(cell1);
+				
+				var cell2 = document.createElement("th");
+				cell2.scope= "row";
+				cell2.innerHTML = myObj[i].orden;
+				registro.appendChild(cell2);
+				
+				var cell3 = document.createElement("th");
+				var lin = document.createElement("i");
+				lin.classList.add("otherclass");
+				cell3.appendChild(lin);
+				var textnode = document.createTextNode(myObj[i].estado);
+				cell3.appendChild(textnode);
+				registro.appendChild(cell3);
+				
 			}
 		}
 	};
