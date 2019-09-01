@@ -52,7 +52,7 @@
 </div>
 
 </div>
-
+<script type="text/javascript" src="../scripts/leertabla.js"></script>
 </body>
 
 </html>
