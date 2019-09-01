@@ -17,7 +17,29 @@ function leer () {
 // Se supone que recibo un array de objetos donde cada item tiene tres campos. 
 			for (var i = 0; i < myObj.length; i++) {
 				registro = tabla.insertRow();
-	
+				var estado = myObj[i].estado;
+				switch (estado) {
+				  case 1:
+					registro.classList.add("table-success");
+					var textnode = document.createTextNode("Listo");
+					lin.classList.add("fas fa-check-circle mr-2");
+					
+					break;
+				  case 2:
+					registro.classList.add("table-info");
+					var textnode = document.createTextNode("Preparando");
+					lin.classList.add("fas fa-clock mr-2");
+					break;
+				  case 3:
+					registro.classList.add("table-secondary");
+					var textnode = document.createTextNode("Preparando");
+					lin.classList.add("fas fa-pause-circle mr-2");
+					break;
+				  default:
+					registro.classList.add("table-secondary");
+					var textnode = document.createTextNode("Preparando");
+					lin.classList.add("fas fa-pause-circle mr-2");
+				}
 			
 				var cell1 = document.createElement("th");
 				cell1.scope= "row";
@@ -31,9 +53,7 @@ function leer () {
 				
 				var cell3 = document.createElement("th");
 				var lin = document.createElement("i");
-				lin.classList.add("otherclass");
 				cell3.appendChild(lin);
-				var textnode = document.createTextNode(myObj[i].estado);
 				cell3.appendChild(textnode);
 				registro.appendChild(cell3);
 				
