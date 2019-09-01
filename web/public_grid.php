@@ -1,6 +1,6 @@
 <?php include 'header.php'; ?>
 
-<table class="table table-bordered" onload="leer();">
+<table class="table table-bordered" onload="leeri();">
 
 	<thead class="thead-dark">
 		<tr>
@@ -52,7 +52,7 @@
 </div>
 
 </div>
-
+<script type="text/javascript" src="../scripts/leertabla.js"></script>
 </body>
 
 </html>

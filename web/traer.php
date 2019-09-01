@@ -2,7 +2,6 @@
 
 include_once '../config/dbConnection.php';
 
-header("Content-Type: application/json; charset=UTF-8");
 
 $sql = "SELECT * FROM pedidos ORDER BY estado ASC,id ASC LIMIT 7";
 $query_run = $mysqli->query($sql);

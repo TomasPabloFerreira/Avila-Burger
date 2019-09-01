@@ -30,7 +30,7 @@
 	<!-- Custom css -->
 	<link rel="stylesheet" type="text/css" href="../css/styles.css">
 	<!-- Custom script -->
-	<script type="text/javascript" src="../scripts/leertabla.js"></script>
+	
 
 </head>
 
