@@ -3,7 +3,7 @@
 include_once '../config/dbConnection.php';
 
 
-$sql = "SELECT * FROM pedidos ORDER BY estado ASC,id ASC LIMIT 7";
+$sql = "SELECT * FROM pedidos ORDER BY estado ASC,id ASC LIMIT 10";
 $query_run = $mysqli->query($sql);
 
 

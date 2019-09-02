@@ -4,8 +4,8 @@
 
 	<thead class="thead-dark">
 		<tr>
-			<th scope="col" style="width:20%">Pedido N°</th>
-			<th scope="col" style="width:62%">Orden</th>
+			<th scope="col" style="width:15%">Pedido N°</th>
+			<th scope="col" style="width:67%">Orden</th>
 			<th scope="col" style="width:18%">Estado</th>
 		</tr>
 	</thead>

@@ -3,7 +3,7 @@
 <html>
 <head>
 
-	<title>Billy Burgers</title>
+	<title>Avila Burger</title>
 
 	<meta charset="utf-8">
 
@@ -29,8 +29,6 @@
 	
 	<!-- Custom css -->
 	<link rel="stylesheet" type="text/css" href="../css/styles.css">
-	<!-- Custom script -->
-	
 
 </head>
 
@@ -38,7 +36,7 @@
 <body>
 
 	<nav class="navbar navbar-dark bg-dark">
-		<a class="navbar-brand" href="menu.php">
+		<a class="navbar-brand font-header" href="menu.php">
 			<img class="logo" src="../images/logo.png" alt="Avila Burger Logo">
 			Avila Burger
 		</a>

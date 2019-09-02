@@ -2,16 +2,16 @@
 include_once 'header.php';
 include_once '../config/dbConnection.php';
 
-$sql = "SELECT * FROM pedidos ORDER BY estado ASC,id ASC LIMIT 7";
+$sql = "SELECT * FROM pedidos ORDER BY estado ASC,id ASC";
 $query_run = $mysqli->query($sql);
 
 ?>
 <table class="table table-bordered">
     <thead class="thead-dark">
         <tr>
-            <th scope="col" style="width:20%">Pedido N°</th>
-            <th scope="col" style="width:45%">Orden</th>
-            <th scope="col" style="width:20%">Estado</th>
+            <th scope="col" style="width:15%">Pedido N°</th>
+            <th scope="col" style="width:52%">Orden</th>
+            <th scope="col" style="width:18%">Estado</th>
             <th scope="col" style="width:15%">
                 <form action="private_form.php" method="post">
                     <button type="submit" name="agregar" class="btn btn-success ml-4">
