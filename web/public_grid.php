@@ -10,44 +10,8 @@
 		</tr>
 	</thead>
 
-	<tbody id="mostrar">
-		<tr class="table-success">
-			<th scope="row">12</th>
-			<th>Papas fritas</th>
-			<th><i class="fas fa-check-circle mr-2"></i>Listo</th>
-		</tr>
-		<tr class="table-success">
-			<th scope="row">13</th>
-			<th>Papas fritas</th>
-			<th><i class="fas fa-check-circle mr-2"></i>Listo</th>
-		</tr>
-		<tr class="table-info">
-			<th scope="row">14</th>
-			<th>Papas fritas</th>
-			<th><i class="fas fa-clock mr-2"></i>Preparando</th>
-		</tr>
-		<tr class="table-info">
-			<th scope="row">16</th>
-			<th>Papas fritas</th>
-			<th><i class="fas fa-clock mr-2"></i>Preparando</th>
-		</tr>
-		<tr class="table-secondary">
-			<th scope="row">15</th>
-			<th>Papas fritas + Hamburguesa completa sin aderezo</th>
-			<th><i class="fas fa-pause-circle mr-2"></i>En cola</th>
-		</tr>
-		<tr class="table-secondary">
-			<th scope="row">17</th>
-			<th>Papas fritas</th>
-			<th><i class="fas fa-pause-circle mr-2"></i>En cola</th>
-		</tr>
-		<tr class="table-secondary">
-			<th scope="row">16</th>
-			<th>Papas fritas</th>
-			<th><i class="fas fa-pause-circle mr-2"></i>En cola</th>
-		</tr>
-
-	</tbody>
+	<tbody id="mostrar"></tbody>
+	
 </table>
 </div>
 
