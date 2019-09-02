@@ -39,6 +39,7 @@ $query_run = $mysqli->query($sql);
             <td>
                 <form action="private_form.php" method="post">
 
+                    <input type="hidden" name="clave" value="<?php echo $row['clave']; ?>" >
                     <input type="hidden" name="id_pedido" value="<?php echo $row['id']; ?>" >
                     <input type="hidden" name="orden" value="<?php echo $row['orden']; ?>">
                     <input type="hidden" name="estado" value="1">
@@ -65,6 +66,7 @@ $query_run = $mysqli->query($sql);
             <td>
                 <form action="private_form.php" method="post">
 
+                    <input type="hidden" name="clave" value="<?php echo $row['clave']; ?>" >
                     <input type="hidden" name="id_pedido" value="<?php echo $row['id']; ?>" >
                     <input type="hidden" name="orden" value="<?php echo $row['orden']; ?>">
                     <input type="hidden" name="estado" value="2">
@@ -92,6 +94,7 @@ $query_run = $mysqli->query($sql);
             <td>
                 <form action="private_form.php" method="post">
 
+                    <input type="hidden" name="clave" value="<?php echo $row['clave']; ?>" >
                     <input type="hidden" name="id_pedido" value="<?php echo $row['id']; ?>" >
                     <input type="hidden" name="orden" value="<?php echo $row['orden']; ?>">
                     <input type="hidden" name="estado" value="3">

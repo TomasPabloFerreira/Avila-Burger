@@ -83,6 +83,6 @@ function leer () {
 			
 		}
 	};
-	xmlhttp.open("POST", "traer.php", true);
+	xmlhttp.open("POST", "loadTable.php", true);
 	xmlhttp.send( );
 }
